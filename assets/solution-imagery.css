@@ -1,0 +1,26 @@
+/* Shared Arabic / English solution photography. */
+.hero.photo-hero{grid-template-columns:1.05fr 1fr;gap:28px 64px;min-height:0;padding-top:58px;padding-bottom:48px;align-items:center}
+.photo-hero .hero-heading,.photo-hero .hero-summary{min-width:0}
+.photo-hero h1{margin-bottom:0}
+.photo-hero .eyebrow{margin-bottom:20px}
+.photo-hero .lead{margin:0 0 24px;max-width:530px}
+.photo-hero .hero-note{margin-bottom:0}
+.solution-figure{margin:0;min-width:0;position:relative}
+.solution-figure img{display:block;width:100%;height:auto;background:#e2e7de;border-radius:6px}
+.solution-figure figcaption{font-size:11px;line-height:1.6;color:var(--muted);padding-top:9px}
+.hero-figure{grid-column:1/-1;margin-top:12px}
+.hero-figure img{aspect-ratio:2.15;object-fit:cover;object-position:center 52%;box-shadow:0 14px 36px #1c292610}
+.service-detail{grid-template-columns:1.12fr 1fr;gap:48px;padding:56px 0;align-items:center}
+.service-detail:nth-of-type(even) .service-image{order:2}
+.service-detail:nth-of-type(even) .service-copy{order:1}
+.service-image img{aspect-ratio:16/9;object-fit:cover}
+.service-copy{min-width:0}
+.service-heading h3{font-size:29px;margin:8px 0 12px}
+.service-heading p{margin:0 0 16px}
+.service-heading .number{display:inline-block;font-weight:700;letter-spacing:2px;direction:ltr}
+.service-features{gap:18px;margin-top:24px;padding-top:22px;border-top:1px solid var(--line)}
+.service-features h4{font-size:16px;margin-bottom:5px}
+.service-features p{font-size:13px;line-height:1.85}
+@media(max-width:1000px){.hero.photo-hero{gap:24px 30px}.service-detail{gap:28px}.service-heading h3{font-size:25px}}
+@media(max-width:900px){.service-detail{grid-template-columns:1fr;padding:38px 0;gap:22px}.service-detail:nth-of-type(even) .service-image,.service-detail:nth-of-type(even) .service-copy{order:initial}.service-features{grid-template-columns:1fr 1fr;gap:24px}.service-heading p{max-width:650px}.service-image img{max-height:470px;object-fit:cover}}
+@media(max-width:720px){.hero.photo-hero{grid-template-columns:1fr;padding-top:34px;padding-bottom:30px;gap:22px}.photo-hero h1{margin:0}.photo-hero .eyebrow{margin-bottom:14px}.photo-hero .lead{margin-bottom:20px}.photo-hero .hero-note{margin-top:20px}.hero-figure{margin-top:0}.hero-figure img{aspect-ratio:16/10;object-position:47% center}.solution-figure figcaption{font-size:10px}.service-detail{padding:32px 0}.service-features{grid-template-columns:1fr;gap:17px}.service-heading h3{font-size:26px}}
